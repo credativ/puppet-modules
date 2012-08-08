@@ -7,3 +7,6 @@
 [submodule "rbldnsd"]
 	path = rbldnsd
 	url = https://github.com/credativ/puppet-rbldnsd
+[submodule "bind"]
+	path = bind
+	url = https://github.com/credativ/puppet-bind
