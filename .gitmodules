@@ -1,3 +1,6 @@
 [submodule "keepalived"]
 	path = keepalived
 	url = https://github.com/credativ/puppet-keepalived
+[submodule "example42lib"]
+	path = example42lib
+	url = https://github.com/credativ/puppet-example42lib

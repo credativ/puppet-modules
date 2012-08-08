@@ -13,4 +13,23 @@ To update your local copy with the upstream version:
     git submodule init
     git submodule update
 
+== Features
 
+This modules are designed to follow some common design principles.
+Basically:
+
+- each module is for own certain service or system component
+- each module uses parameterized classes
+- common arguments throughout all arguments (if it fits the service)
+- usage of non-intrusive system changes (e.g. via augeas) where possible
+
+== Usage
+
+The modules all use a special function, params_lookup, which has been taken
+from the example42 nextgen puppet modules (https://github.com/example42).
+It supports parameter lookup from:
+
+- parameters given to class
+- parameters defined in top-scope or via an external node classifier (ENC)
+- parameters defined in hiera
+- values defined in a ::params class of the module
