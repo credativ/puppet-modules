@@ -4,3 +4,6 @@
 [submodule "example42lib"]
 	path = example42lib
 	url = https://github.com/credativ/puppet-example42lib
+[submodule "rbldnsd"]
+	path = rbldnsd
+	url = https://github.com/credativ/puppet-rbldnsd
