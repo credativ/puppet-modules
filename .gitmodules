@@ -1,0 +1,3 @@
+[submodule "keepalived"]
+	path = keepalived
+	url = https://github.com/credativ/puppet-keepalived
