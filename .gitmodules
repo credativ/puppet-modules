@@ -13,3 +13,6 @@
 [submodule "rsyslog"]
 	path = rsyslog
 	url = https://github.com/credativ/puppet-rsyslog
+[submodule "stdpackages"]
+	path = stdpackages
+	url = https://github.com/credativ/puppet-stdpackages

@@ -33,3 +33,17 @@ It supports parameter lookup from:
 - parameters defined in top-scope or via an external node classifier (ENC)
 - parameters defined in hiera
 - values defined in a ::params class of the module
+
+== Special modules
+
+Almost all modules follow the above described design, but as always there are
+exceptions to the rule of thumb. The following modules either do not follow
+the design because it does not fit the configured component/service or because
+they have a special purpose:
+
+=== example42libs
+A library with some puppet functions, which are used by the most of the
+other modules.
+
+=== stdpackages
+A simple module just installing a few standard/often needed packages.
