@@ -1,0 +1,16 @@
+= credativ Puppet Modules
+
+This repository collects all credativ puppet modules, included as submodules.
+
+== Installation and Updates
+
+You can clone all modules like this:
+    git clone --recursive git://github.com/credativ/puppet-modules.git
+
+To update your local copy with the upstream version:
+    cd /etc/puppet/modules # Or the directory where's you local copy
+    git pull origin master
+    git submodule init
+    git submodule update
+
+
