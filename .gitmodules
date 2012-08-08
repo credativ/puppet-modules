@@ -10,3 +10,6 @@
 [submodule "bind"]
 	path = bind
 	url = https://github.com/credativ/puppet-bind
+[submodule "rsyslog"]
+	path = rsyslog
+	url = https://github.com/credativ/puppet-rsyslog
