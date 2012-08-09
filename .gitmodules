@@ -16,3 +16,6 @@
 [submodule "stdpackages"]
 	path = stdpackages
 	url = https://github.com/credativ/puppet-stdpackages
+[submodule "puppet-crond"]
+	path = puppet-crond
+	url = https://github.com/credativ/puppet-crond.git
