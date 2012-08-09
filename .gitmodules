@@ -22,3 +22,6 @@
 [submodule "rdiff_backup"]
 	path = rdiff_backup
 	url = https://github.com/credativ/puppet-rdiff_backup.git
+[submodule "postfix"]
+	path = postfix
+	url = https://github.com/credativ/puppet-postfix.git
