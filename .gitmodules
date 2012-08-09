@@ -19,3 +19,6 @@
 [submodule "puppet-crond"]
 	path = puppet-crond
 	url = https://github.com/credativ/puppet-crond.git
+[submodule "rdiff_backup"]
+	path = rdiff_backup
+	url = https://github.com/credativ/puppet-rdiff_backup.git
