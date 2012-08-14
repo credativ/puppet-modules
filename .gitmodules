@@ -25,3 +25,6 @@
 [submodule "ssh"]
 	path = ssh
 	url = https://github.com/credativ/puppet-ssh-hiera.git
+[submodule "crond"]
+	path = crond
+	url = https://github.com/credativ/puppet-crond.git
