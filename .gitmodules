@@ -25,3 +25,6 @@
 [submodule "postfix"]
 	path = postfix
 	url = https://github.com/credativ/puppet-postfix.git
+[submodule "ssh"]
+	path = ssh
+	url = https://github.com/credativ/puppet-ssh-hiera.git
